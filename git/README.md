@@ -70,7 +70,7 @@ Both commands above will take you to the new branch, but there are some differen
 
 `git switch` will in this case work as expected, but if the branch you want to change to isn't on your local PC then this command won't work.
 
-`git checkout` does exactly the same as `switch`, but in the case where you don't have the branch locally, this will pull that branch and change to it.
+`git checkout` does exactly the same as `switch`, but in the case where you don't have the branch locally, this will pull that branch and change to it. `git branch -a` to view all branches including remote branches.
 
 ```
 main branch
